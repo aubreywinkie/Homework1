@@ -136,6 +136,7 @@ h1 {
 }
 
 .footer {
+    margin-top: 142px;
     margin-left: -8px;
     margin-right: -8px;
     width: 100%;
@@ -149,11 +150,12 @@ h1 {
 .header {
   overflow: hidden;
   background-color: white;
-  padding: 20px 112px 19px 114px;
+  padding: 0px 77px 0px 80px;
   display: block;
   margin-top: -8px;
   margin-left: -6px;
   margin-right: -6px;
+  margin-bottom: 35px;
 }
 
 .header a {
