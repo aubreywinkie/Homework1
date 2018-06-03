@@ -67,6 +67,8 @@ body {
   margin-right: 5px;
 }
 
+
+
 .row::after {
   content: "";
   clear: both;
@@ -201,29 +203,40 @@ h1 {
   backface-visibility: hidden;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
 
-.column:hover .image {
+/*.column:hover .image {
   opacity: 0.3;
-}
+}*/
 
-.column:hover .middle {
-  opacity: 1;
-}
 
 .text {
   background-color: #4aaaa5;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 16px 89px;
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+}
+
+.hangman {
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 16px;
+  padding: 16px 95px;
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+}
+
+.trivia {
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 16px;
+  padding: 16px 87px;
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
 }
 
 @media screen and (max-width: 500px) {
